@@ -1,0 +1,25 @@
+{
+    "products": [
+        {
+            "id": 0,
+            "name": "Basic Hairbow",
+            "title": "Popular Products",
+            "image": "image/download.jpg",
+            "price": 5.00
+        },
+        {
+            "id": 1,
+            "name": "Unicorn Hairbow",
+            "title": "Latest Products",
+            "image": "/image/images.jpg",
+            "price": 5.00
+        },
+        {
+            "id": 2,
+            "name": "Santa Hairbow",
+            "title": "Seasonal Products",
+            "image": "/image/download (1).jpg",
+            "price": 5.00
+        }
+    ]
+}
