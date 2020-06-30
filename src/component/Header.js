@@ -1,7 +1,7 @@
 
 import React, {Component} from 'react';
-import {Jumbotron, Container, Row, Col, Navbar, Nav, NavItem, Button, NavLink} from 'reactstrap';
-// import {NavLink} from 'react-router-dom';
+import {Jumbotron, Container, Row, Col, Navbar, Nav, NavItem, Button} from 'reactstrap';
+import {NavLink} from 'react-router-dom';
 
 
 class Header extends Component {
@@ -28,10 +28,10 @@ class Header extends Component {
                             {/* <!-- Filler --> */}
                         </NavItem>
                         <NavItem>
-                            <NavLink className="navLink" to="/about">About</NavLink>
+                            <NavLink className="nav-link" to="/about">About</NavLink>
                         </NavItem>
                         <NavItem>
-                           <NavLink href="#">Contact Us</NavLink>
+                           <NavLink className="nav-link" to="/contact">Contact Us</NavLink>
                         </NavItem>
                         <NavItem className="nav-item active">
                             <NavLink className="nav-logo" to="/home">
@@ -39,13 +39,13 @@ class Header extends Component {
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="products.html">Products</NavLink>
+                            <NavLink className="nav-link" to="/products">Products</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#">Orders</NavLink>
+                            <NavLink className="nav-link" to="/orders">Orders</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#"><i className="fa fa-shopping-basket"></i></NavLink>
+                            <NavLink  className="nav-link" to="/cart"><i className="fa fa-shopping-basket"></i></NavLink>
                         </NavItem>
                     </Nav>
                 </Navbar>
