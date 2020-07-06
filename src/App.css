@@ -37,12 +37,12 @@
 
 #logo{
   border-radius: 50%;
-  width:13rem;
+  width:13rem; 
   margin:auto;
   position: relative;
-  top:-10rem;
+  top:-10rem;  
   background-color:rgb(255, 236, 246);
-  border: 5px solid rgb(255, 236, 246);
+  border: 5px solid rgb(255, 236, 246); 
 }
 
 .brand{
