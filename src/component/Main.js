@@ -20,10 +20,10 @@ class Main extends Component {
                     <div className="background-gradient">
                         <Container>
                             <Switch>
-                                <Route path='/home' render={() => <Content />} />
+                                <Route path='/products' render={() => <Content />} />
                                 <Route path='/about' render={() => <About />} />
                                 <Route path='/contact' render={() => <Contact />} />
-                                <Redirect to='/home' />
+                                <Redirect to='/products' />
                             </Switch> 
                         </Container>
                     </div>
